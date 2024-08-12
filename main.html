@@ -9,21 +9,22 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>"Feedback form"</h1>
-	<form method="post">
-	<table>	
-		<tr>
-			<td>Name</td><td><input id="name" type="text"attribute="minlength=3,maxlength="50" required</td>
-		</tr>
-		<tr>
-			<td>Portfolio</td><td><input id="portfolio" type="url" required</td><label for="Yes">
-		</tr>
-		<tr>
-			<td>Favorite Color</td><td><input id="favcolor" type="color"</td><label for="Yes">
-		</tr>
-		<tr>
-			<td>Likeness</td><td><input id="likeness" type="range" min="1" max="100"</td><label for="Yes"
-		</tr>
-	</table>
+	<form method="post" action="submit form">
+	
+			<label for="name">Name</label>
+			<input id="name" type="text"attribute="minlength=3,maxlength="50",required>
+		
+			<label for="portfolio">Portfolio</label>
+			<input id="portfolio" type="url" required>
+		
+			<label for="favColor">Favorite Color</label>
+			<input id="favColor" type="color">
+		
+			<label for="likeness">Likeness</label>
+			<input id="likeness" type="range" min="1" max="100">
+		
+		<input type="submit" value="Submit">
+			
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
